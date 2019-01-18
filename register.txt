@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register :</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<a href="login1.html" target="_blank">loginpage</a><br>
+</head>
+<body>
+	<h1>new user? register now</h1>
+	<form>
+		<td>name:</td>
+		<input type="text" placeholder="first_name" name="name">
+		<input type="text" placeholder="last_name" name="name"><br>
+		<td>username:</td>
+		<input type="text" placeholder="username" name="name"><br>
+		<td>email id:</td>
+		<input type="Email" placeholder="email" name="Email"><br>
+		<td>password:</td>
+		<input type="text" placeholder="password" name="password"><br>
+		<td>confirm password:</td>
+		<input type="text" placeholder="password" name="confirm">
+		<div>
+			<td>Gender:</td>
+			<input type="radio" name="Gender" value="Male">Male
+			<input type="radio" name="Gender" value="Female">Female
+		</div>
+		<input type="submit" name="submit">
+	</form>  
+</body>
+</html>
